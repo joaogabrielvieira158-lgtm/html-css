@@ -1,0 +1,111 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre jogos</title>
+</head>
+<body>
+    <header>
+        <h1>Site de Jogos</h1>
+        <p>Um site simples sobre Gêneros de jogos que eu gosto.</p>
+    </header>
+
+    <section>
+
+        <h2>Sobre os Gêneros de Jogos</h2>
+
+        <article>
+            <h3>Jogos de RPG</h3>
+            <p>RPG é um gênero onde o jogador interpreta um(a) personagem, evolui seus níveis e habilidades.</p>
+        </article>
+
+        <article>
+            <h3>Jogos de Plataforma</h3>
+            <p>O gênero de Plataforma é baseado em desafios que exigem uma alta precisão e habilidade por parte do jogador enquanto pula em plataformas e inimigos.</p>
+        </article>
+
+        <article>
+            <h3>Jogos de Simulação</h3>
+            <p>O gênero de jogos de simulação abragem diversos cenários e dão muitas possibilidades aos jogadores do que eles poderiam preferir naquele momento. Ex: 'Simulação de vida(The Sims), Simulação de fazenda(Stardew Valley), Simulação de corrida(Gran Turismo)'.</p>
+        </article>
+        
+    </section>
+    <section>
+        <form action="">
+            <h2>Formulário de Preferências</h2>
+
+        <fieldset>
+
+            <legend>Informações Pessoais</legend><br>
+
+            <label for="nome">Digite seu Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="idade">Coloque sua Idade:</label>
+            <input type="number" id="idade" name="idade"><br><br>
+
+            <label for="data_nascimento">Data de nascimento</label>
+            <input type="date" id="data_nascimento" name="data_nascimento"><br><br>
+
+            <label for="email">Digite seu Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="senha">Digite sua Senha:</label>
+            <input type="password" id="senha" name="senha"><br><br>
+
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Preferências de Jogos</legend>
+
+            <p>Gênero favorito:</p>
+
+            <input type="radio" id="rpg" name="genero" value="rpg">
+            <label for="rpg">RPG</label>
+
+            <input type="radio" id="plataforma" name="genero" value="plataforma">
+            <label for="plataforma">Plataforma</label>
+
+            <input type="radio" id="simulação" name="genero" value="simulação">
+            <label for="simulação">Simulação</label>
+
+            <p>Plataformas que você joga:</p>
+
+            <input type="checkbox" id="pc">
+            <label for="pc">PC</label>
+
+            <input type="checkbox" id="mobile">
+            <label for="mobile">Mobile</label>
+
+            <input type="checkbox" id="console">
+            <label for="console">Console</label><br><br>
+
+            <label for="consolefavorito">Console/Plataforma favorito(a):</label>
+
+            <select name="consolefavorito" id="consolefavorito">
+
+                <option>Playstation</option>
+                <option>Xbox</option>
+                <option>Nintendo</option>
+                <option>PC</option>
+                <option>Mobile</option>
+
+            </select><br><br>
+
+            <label for="comentario">Comentario:</label>
+
+            <textarea name="comentario" id="comentario" rows="4" cols="40" Placeholder="Escreva aqui sobre sua experiência mais marcante com games!"></textarea>
+            
+        </fieldset>
+
+    <br><br>
+
+    <button type="submit">Enviar Formulário</button>
+
+    <br><br> 
+
+    </form>
+</section>
+
+</body>
